@@ -1,9 +1,9 @@
 module.exports = (on, config) => {
   return Object.assign({}, config, {
-    fixturesFolder: false,
+    fixturesFolder: 'tests/e2e/fixtures',
     integrationFolder: 'tests/e2e/specs',
-    screenshotsFolder: false,
-    videosFolder: false,
+    screenshotsFolder: 'tests/e2e/screenshots',
+    videosFolder: 'tests/e2e/videos',
     supportFile: false,
   });
 };

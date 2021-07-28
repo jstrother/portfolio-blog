@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
-describe('testing cypress', () => {
+describe('testing jest', () => {
   it('does not do much', () => {
-    expect(true).to.equal(true);
+    expect(true).toEqual(true);
   });
 });

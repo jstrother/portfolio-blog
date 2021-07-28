@@ -2,3 +2,16 @@
 node_modules
 /.svelte-kit
 /package
+
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+.vscode
